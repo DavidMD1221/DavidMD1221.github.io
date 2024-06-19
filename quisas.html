@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos - Tienda Online</title>
+    <link rel="stylesheet" href="si.css">
+    <link rel="stylesheet" href="no.html">
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        (function () {
+            emailjs.init('sxuSmTZLrFVOR6TA1'); // Reemplaza YOUR_USER_ID con tu ID de usuario de emailjs
+        })();
+    </script>
+    <style>
+        .oculto {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <img src="WhatsApp Image 2024-06-16 at 11.57.19 PM.jpeg" alt="Logo de la tienda">
+            <h1>𝒱𝒾𝓃𝓉𝒶𝑔𝑒ℬ𝓎𝓉𝑒</h1>
+            <nav id="menu" class="menu">
+                <ul>
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="#ok">comentarios</a></li>
+                    <li><a href="index.html#nosotros">Nosotros</a></li>
+                    <li><a href="#contactos">Contacto</a></li>
+                    <li><a href="index.html#razones">Razones para jugar</a></li>
+                </ul>
+            </nav>
+            <button id="menu-btn" class="menu-btn">&#9776;menu</button>
+            <script src="talvez.js"></script>
+        </div>
+    </header>
+    <section id="products">
+        <div class="container">
+            <h2>Todos los productos</h2>
+            <div class="ño">
+                <div class="product">
+                    <a href="https://youtu.be/mWrBqrifdvk?si=RyVPGkvFsC4X7TEz"><img
+                            src="WhatsApp Image 2024-04-26 at 1.31.59 AM (1).jpeg" alt="Producto 1"></a>
+                    <h3>Dead Space</h3>
+                    <p>"Dead Space" es un juego de terror espacial donde el jugador lucha contra criaturas alienígenas
+                        en una nave abandonada.</p>
+                    <span class="price">$1,500</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <a href="https://youtu.be/ofH5ptn5w-A?si=x2prFTUnBN2C7QTb"><img
+                            src="WhatsApp Image 2024-04-26 at 1.31.59 AM (2).jpeg" alt="Producto 2"></a>
+                    <h3>Zelda "Breath of the wild"</h3>
+                    <p>"Breath of the Wild" sigue a Link en su misión para derrotar a Ganon y salvar Hyrule en un vasto
+                        mundo abierto.</p>
+                    <span class="price">$1,200</span>
+                    <a href="#" class="btn">Comprar</a>
+
+                </div>
+                <div class="product">
+                    <a href="https://youtu.be/rFh2i4AlPD4?si=cGQTYqsf_9GR-IS0 "><img
+                            src="WhatsApp Image 2024-04-26 at 1.31.59 AM (3).jpeg" alt="Producto 2"></a>
+                    <h3>Halo Infinite</h3>
+                    <p>"Halo Infinite" es un juego de disparos en primera persona donde el Jefe Maestro lucha contra el
+                        Covenant en un mundo abierto.</p>
+                    <span class="price">$1,100</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+            </div>
+            <div class="ño">
+                <div class="product">
+                    <a href="https://youtu.be/q4GdJVvdxss?si=-5Z3rta01_hjO6bp"><img
+                            src="663f3dc9-30e8-4250-acf5-9d42cbe7b2af.jpg" alt="Producto 2"></a>
+                    <h3>Spiderman "ps4"</h3>
+                    <p>"Spider-Man" para PS4 te pone en la piel de Peter Parker mientras balanceas por Nueva York
+                        combatiendo el crimen como Spider-Man.</p>
+                    <span class="price">$990</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <a href="https://youtu.be/zAb8RYIt7ic?si=9gWXRzuuEsjHRvxk "><img
+                            src="WhatsApp Image 2024-04-26 at 1.31.59 AM.jpeg" alt="Producto 2"></a>
+                    <h3>Zelda "Skyward Sword"</h3>
+                    <p>"Zelda: Skyward Sword" sigue a Link en su búsqueda para rescatar a Zelda en un mundo flotante,
+                        con jugabilidad basada en el control de movimiento de la Wii.</p>
+                    <span class="price">$1,200</span>
+                    <a href="#" class="btn">Comprar</a>
+                </div>
+                <div class="product">
+                    <a href="https://youtu.be/BY9-jWQQHgw?si=hRPJ7UkQnPrk3Gsi "></a><img
+                        src="WhatsApp Image 2024-04-26 at 1.32.00 AM (1).jpeg" alt="Producto 2">
+                    <h3>Five Nigths at Freddys "Security Breach"</h3>
+                    <p>"FNAF: Security Breach" es un juego de terror en primera persona ambientado en un centro
+                        comercial abandonado, lleno de animatrónicos aterradores.</p>
+                    <span class="price">$1,250</span>
+                    <a href="#formulario oculto" class="btn">Comprar</a>
+                </div>
+            </div>
+            <h1>Comentarios</h1>
+            <div id="comentarios">
+                <!-- Aquí se mostrarán los comentarios -->
+            </div>
+            <hr>
+            <h2 id="ok">Deja un comentario</h2>
+            <form id="formulario-comentario">
+                <label for="nombre">Nombre:</label><br>
+                <input type="text" id="nombre" name="nombre"><br>
+                <label for="mensaje">Mensaje:</label><br>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50"></textarea><br><br>
+                <button type="submit">Enviar</button>
+            </form>
+
+            <body>
+                <form id="compraForm" class="oculto">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <button type="submit">Enviar</button>
+                </form>
+                <div class="mensajeExito oculto">¡Compra exitosa!</div>
+                <!-- Incluir el script JS -->
+                <script src="f.js"></script>
+            </body>
+    </section>
+
+    <footer id="contactos">
+        <div class="container">
+            <div class="footer-info">
+                <h3>Contáctanos</h3>
+                <p>Teléfono: 442-331-7874</p>
+                <p>Email: soporte@VintageByte.com</p>
+                <a href="https://g.co/kgs/UA9aVvR">Dirección: COL., Av de las Fuentes 2123, Fundadores, 76117 Santiago
+                    de Querétaro, Qro.</a>
+            </div>
+            <div class="social-links">
+                <h3>Síguenos</h3>
+                <a href="#">Facebook</a>
+                <a href="#">Twitter</a>
+                <a href="#">Instagram</a>
+    </footer>
+</body>
+
+</html>

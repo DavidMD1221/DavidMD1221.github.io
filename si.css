@@ -1,0 +1,229 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(desktop-wallpaper-black-gamer-black-and-white-gaming.jpg);
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header, footer {
+    color: #fff;
+    padding: 20px 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+section {
+    padding: 50px 0;
+}
+
+/* Estilos específicos */
+header img {
+    width: 90px;
+    height: auto;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+header h1 {
+    display: inline;
+}
+
+#hero {
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #ff6600;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #cc5500;
+}
+
+#featured-products h2 {
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+
+
+footer {
+    text-align: center;
+}
+
+.social-links a {
+    display: inline-block;
+    margin: 0 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.carousel-container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden; /* Oculta el contenido que se desborda */
+}
+
+.carousel {
+    display: flex;
+    transition: transform 0.5s ease; /* Transición suave al cambiar la transformación */
+}
+
+.carousel img {
+    width: 300px; /* Ancho de las imágenes */
+    height: 400px; /* Altura automática para mantener la proporción */
+    margin-right: 10px; /* Espacio entre las imágenes */
+}
+article{
+    width: 40%;
+    margin: 0 auto;
+    text-shadow: 15px 15px 15px #b5b5b5;
+    transition:box-shadow 0.3s ease;
+    color: #fff;
+    margin: irem 0;
+    border-radius: 0.5rem;
+    padding: 0.1rem 0;
+    cursor: pointer;
+}
+article:hover{
+    box-shadow: 0 0.1rem 0.4rem purple;
+
+}
+article h2,section article p{
+    margin: 1rem;
+    text-align: center;
+}
+.post img{
+    height: auto;
+    display: block;
+    width: 300px;
+    margin: 0 auto;
+    padding: none;
+    cursor: pointer;
+    border-radius: 0.6rem;
+    height: auto;
+    transition: transform 0.6s ease;
+    color: #fff;
+}
+img:hover{
+    transform: scale(1.9);
+}
+.menu {
+    display: none;
+}
+
+.menu.active {
+    display: block;
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #333;   
+}
+.menu li {
+    display: inline-block;
+    padding: 10px;
+}
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+.menu-btn {
+    display: block;
+    margin: 10px;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-btn:focus {
+    outline: none;
+}
+.section {
+    margin-top: 100px; /* Ajusta según el tamaño del menú */
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #333;
+}
+.ño{
+    display: flex;
+}
+.product{
+    flex: 5; /* Hace que cada div ocupe la misma cantidad de espacio disponible */
+    border-radius: 0.5rem;
+    box-shadow: 15px 15px 15px purple;
+    border: 1px solid black; /* Añade un borde para visualizar los límites de cada div */
+    padding: 10px; /* Añade un relleno para que los contenidos no estén pegados al borde */
+    margin: 10px; /* Añade un margen para separar los divs */
+    color: #fff;
+}
+
+
+@keyframes animateBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+.oculto {
+    display: none;
+    color: #fff;
+}
+.product img{
+    width: 150px;
+    height: auto;
+    display: block; /* Para evitar espacio adicional debajo de la imagen */
+    margin-left: auto; /* Margen izquierdo automático */
+    margin-right: auto; /* Margen derecho automático */
+}
+.link{
+    color: white;
+}
+.link:hover{
+    color: aquamarine;
+}
+html{
+    color: #fff;
+}
